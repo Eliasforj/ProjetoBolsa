@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projetobolsa">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Respostas"></activity>
+        <activity android:name=".ResponderPerguntas" />
+        <activity
+            android:name=".PrincipalMateriaisAluno"
+            android:label="@string/title_activity_principal_materiais_aluno" />
+        <activity android:name=".VerPerguntas" />
+        <activity android:name=".AdicionarQuestionario" />
+        <activity
+            android:name=".PrincipalMateriaisProf"
+            android:label="@string/title_activity_principal_materiais" />
+        <activity android:name=".TextoApostila" />
+        <activity android:name=".ApostilaAluno" />
+        <activity android:name=".PrincipalAluno" />
+        <activity android:name=".CadastroAluno" />
+        <activity android:name=".TextoWiki" />
+        <activity android:name=".AdicinarApostila" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CadastroProf" />
+        <activity android:name=".Login" />
+        <activity android:name=".PrincipalProf" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

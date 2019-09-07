@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_apostilas"
+        android:icon="@drawable/baseline_book_black_48"
+        android:title="@string/nav_apostilas" />
+
+
+    <item
+        android:id="@+id/navigation_questionarios"
+        android:icon="@drawable/baseline_library_books_black_48"
+        android:title="@string/nav_questionario" />
+
+    <item
+        android:id="@+id/navigation_respostas"
+        android:icon="@drawable/baseline_collections_bookmark_black_48"
+        android:title="@string/nav_questionarios_recebidos" />
+
+
+</menu>

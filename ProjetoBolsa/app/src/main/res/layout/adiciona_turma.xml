@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtNovaTurma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="54dp"
+        android:ems="10"
+        android:hint="Turma"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:id="@+id/groupBox"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_below="@+id/edtNovaTurma"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="47dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rdbEnsinoMedio"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/groupBox"
+            android:text="@string/rdb_medio" />
+
+        <RadioButton
+            android:id="@+id/rdbEnsinoSuperior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rdb_superior" />
+
+    </RadioGroup>
+</RelativeLayout>

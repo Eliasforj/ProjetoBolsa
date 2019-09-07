@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app= "http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_pergunta_anterior"
+        android:icon="@drawable/baseline_navigate_before_white_36"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menu_proxima_pergunta"
+        android:icon="@drawable/baseline_navigate_next_white_36"
+        app:showAsAction="always" />
+</menu>
